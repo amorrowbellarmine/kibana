@@ -13,7 +13,7 @@ import { getMigrationStatusStep, getSecurityStep } from '../common_instructions'
 
 export function getApmInstructionsForEnablingMetricbeat(product, _meta, { esMonitoringUrl }) {
   const securitySetup = getSecurityStep(
-    `${ELASTIC_WEBSITE_URL}guide/en/apm/reference/${DOC_LINK_VERSION}/configuring-metricbeat.html`
+    `${ELASTIC_WEBSITE_URL}guide/en/apm/${DOC_LINK_VERSION}/configuring-metricbeat.html`
   );
 
   const installMetricbeatStep = {
